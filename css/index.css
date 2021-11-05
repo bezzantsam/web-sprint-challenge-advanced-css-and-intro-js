@@ -181,7 +181,49 @@ button:hover{
 }
 
 @media (min-width: 500px) {
+    nav{
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
      
+ .title-container div { 
+    width: 80%;
+    height: 60vh;
+    margin-bottom:2%;
 
+}
+.title-container h1{
+    font-size: 5.5rem;
+    line-height:1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.title-container button{
+    margin: 1% auto;
+    padding: 2%;
+    width: 22%;
+    font-size: 2.4rem;
+}
 
+.artists-container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    height: 40vh
+}
+.artist img{
+    width:60%;
+    height: 35vh;
+    margin-bottom: 4%;
+}
+.artist a{
+    font-weight: lighter;
+}
+.bio{
+    margin-right: 1%;
+    width: 80%
 }
